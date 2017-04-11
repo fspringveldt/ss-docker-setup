@@ -1,0 +1,12 @@
+{
+    "name": "fspringveldt/ss-docker-setup",
+    "description": "Default docker setup for Silverstripe",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Franco Springveldt",
+            "email": "fspringveldt@gmail.com"
+        }
+    ],
+    "require": {}
+}
