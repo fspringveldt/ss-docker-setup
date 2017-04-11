@@ -23,4 +23,4 @@ SS_VIRTUAL_HOST=
 6. Run `docker-compose build` to build the images
 7. Once built, run `docker-compose up -d` to fire them up. To take them down run `docker-compose down`, adding a -v flag to remove any mounts.
 
-Once you're setup you can shell into your ss-site container as such: `docker exec -ti ss-site /bin/bash` from whence you can run all your PHP CLI commands.
+Once you're setup you can shell into your ss-site container as such: `docker exec -ti ss-site /bin/bash` from whence you can run all your PHP CLI commands (git clone, composer create-project, etc.)
