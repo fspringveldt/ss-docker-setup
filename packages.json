@@ -1,8 +1,0 @@
-{
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://github.com/fspringveldt/ss-docker-setup.git"
-    }
-  ]
-}
