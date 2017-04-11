@@ -2,7 +2,7 @@
 Clones down a runnable docker Silverstripe environment. This sets up an eco-system with a database, a web-server (PHP + Apache) and a PHPMyAdmin container so you can access your database. A reverse nginx-proxy container is also used to provide virtual host names functionality.
 
 # Setup
-1. Install docker by [following this guide.](https://docs.docker.com/engine/getstarted/step_one/)  
+1. Install [Composer](https://getcomposer.org/download/) and [Docker](https://docs.docker.com/engine/getstarted/step_one/)  
 2. Then run `composer create-project -s dev fspringveldt/ss-docker-setup <desired-folder-name>`. This pulls down the project and all it's files.
 3. Edit the file named .env as below in your project's root directory, adding values after the equals signs
 ```txt
