@@ -22,7 +22,8 @@ services:
       - db
     working_dir: /var/www/html/
     volumes:
-      - ./:/var/www/html
+      - ./:/var/www/
+      - ${PROJECT_PATH}:/var/www/html
     environment:
       - VIRTUAL_HOST=${SS_VIRTUAL_HOST}
       - DATABASE_SERVER=db
