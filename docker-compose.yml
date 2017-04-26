@@ -26,7 +26,7 @@ services:
       - ${PROJECT_PATH}:/var/www/html
     environment:
       - VIRTUAL_HOST=${SS_VIRTUAL_HOST}
-      - DATABASE_SERVER=db
+      - SS_DATABASE_SERVER=db
       - XDEBUG_CONFIG=remote_host=${XDEBUG_REMOTE_HOST}
       - SS_DATABASE_NAME=${SS_DATABASE_NAME}
       - SS_DATABASE_USERNAME=${SS_DATABASE_USERNAME}
